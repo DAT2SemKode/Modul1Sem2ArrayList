@@ -2,7 +2,7 @@ package Sem2;
 public class Sem2ArrayList {
 
     private Coordinate[] elements;
-    private int maxUsed;
+    private int maxUsed = 77;
     public Sem2ArrayList() {
         elements = new Coordinate[ 2 ];
         maxUsed = -1;
